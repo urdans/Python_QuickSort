@@ -164,7 +164,7 @@ def main():
     
     sys.setrecursionlimit(1000)
     types = ("Normal unsorted list sorting...", "Already sorted list sorting...", "Descending-sorted list sorting...")
-    starmethod = 2
+    starmethod = 0
     print("*** Sorting a list of {} elements ***".format(len(L0)))
     for method in range(starmethod,3,1):#3
         L1 = L0[:]  
